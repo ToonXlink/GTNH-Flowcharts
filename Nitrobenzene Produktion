@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="600" width="510" height="240" as="geometry" />
+        </mxCell>
         <mxCell id="sDqQGJ1Ufiwb65XHR9N7-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="720" y="240" width="560" height="160" as="geometry" />
         </mxCell>
@@ -236,6 +239,100 @@
         </mxCell>
         <mxCell id="sDqQGJ1Ufiwb65XHR9N7-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="720" y="400" width="1150" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-49" value="1000l Nitrogen" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-50" value="3000l Hydrogen" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-51" value="LCR - HV&lt;div&gt;122.889 EU&lt;/div&gt;&lt;div&gt;16s&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="670" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sDqQGJ1Ufiwb65XHR9N7-49" target="sDqQGJ1Ufiwb65XHR9N7-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="720" as="sourcePoint" />
+            <mxPoint x="420" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="660" />
+              <mxPoint x="200" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-53" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sDqQGJ1Ufiwb65XHR9N7-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="720" as="sourcePoint" />
+            <mxPoint x="200" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-54" value="1000l Ammonia" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="400" y="700" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-55" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sDqQGJ1Ufiwb65XHR9N7-51" target="sDqQGJ1Ufiwb65XHR9N7-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="840" as="sourcePoint" />
+            <mxPoint x="420" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-59" value="1000l Ammonia" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="560" y="640" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-60" value="4000l Oxygen" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="560" y="760" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-61" value="LCR - LV&lt;div&gt;9600 EU&lt;/div&gt;&lt;div&gt;16s&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="760" y="670" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sDqQGJ1Ufiwb65XHR9N7-59" target="sDqQGJ1Ufiwb65XHR9N7-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="760" as="sourcePoint" />
+            <mxPoint x="690" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="660" />
+              <mxPoint x="720" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-63" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sDqQGJ1Ufiwb65XHR9N7-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="710" as="sourcePoint" />
+            <mxPoint x="720" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-64" value="1000l Nitric Acid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="920" y="640" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-68" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="600" width="520" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-65" value="1000l Water" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="920" y="760" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-66" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sDqQGJ1Ufiwb65XHR9N7-61" target="sDqQGJ1Ufiwb65XHR9N7-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="810" as="sourcePoint" />
+            <mxPoint x="870" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="720" />
+              <mxPoint x="880" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-71" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="sDqQGJ1Ufiwb65XHR9N7-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="720" as="sourcePoint" />
+            <mxPoint x="940" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="720" />
+              <mxPoint x="880" y="780" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
