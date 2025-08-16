@@ -1,9 +1,125 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" version="28.1.0">
   <diagram name="Seite-1" id="v0UPKrt8CGhb96gmzMq9">
-    <mxGraphModel dx="1091" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="918" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="320" width="560" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="240" width="670" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-1" value="Input" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-2" value="Main Output" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-3" value="Secondary&lt;div&gt;&amp;nbsp;Output&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-4" value="5000l Benzene" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-5" value="3000l Sulfuric Acid&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-6" value="5000l Nitric Acid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-7" value="10000l Distilled Water" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-8" value="LCR - IV&lt;div&gt;921.600 EU&lt;/div&gt;&lt;div&gt;6s&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="370" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="sDqQGJ1Ufiwb65XHR9N7-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="300" as="sourcePoint" />
+            <mxPoint x="400" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="300" />
+              <mxPoint x="200" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="380" as="sourcePoint" />
+            <mxPoint x="200" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-12" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sDqQGJ1Ufiwb65XHR9N7-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="480" as="sourcePoint" />
+            <mxPoint x="200" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-13" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sDqQGJ1Ufiwb65XHR9N7-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="480" as="sourcePoint" />
+            <mxPoint x="200" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-14" value="5000l Nitrobenzene" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="540" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-15" value="3000l Diluted Sulfuric Acid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="540" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sDqQGJ1Ufiwb65XHR9N7-8" target="sDqQGJ1Ufiwb65XHR9N7-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="560" as="sourcePoint" />
+            <mxPoint x="390" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="420" />
+              <mxPoint x="480" y="380" />
+              <mxPoint x="480" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="sDqQGJ1Ufiwb65XHR9N7-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="420" as="sourcePoint" />
+            <mxPoint x="550" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="420" />
+              <mxPoint x="480" y="400" />
+              <mxPoint x="480" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-20" value="60l Diluted Sulfuric Acid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="760" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sDqQGJ1Ufiwb65XHR9N7-20" target="sDqQGJ1Ufiwb65XHR9N7-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="460" as="sourcePoint" />
+            <mxPoint x="810" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="910" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-24" value="Distellery - LV&lt;div&gt;720 EU&lt;/div&gt;&lt;div&gt;1,2s&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="950" y="350" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-26" value="40l Sulfuric Acid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sDqQGJ1Ufiwb65XHR9N7-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="sDqQGJ1Ufiwb65XHR9N7-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="400" as="sourcePoint" />
+            <mxPoint x="960" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1100" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
